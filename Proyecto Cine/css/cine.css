@@ -38,6 +38,36 @@
     align-items: center;
     justify-content: center;
 }
+#accion1{
+    background-image: url(../Imagenes/Accion1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#ficcion1{
+    background-image: url(../Imagenes/ficcion1.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#comedia1{
+    background-image: url(../Imagenes/comedia1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#drama1{
+    background-image: url(../Imagenes/Accion1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#suspenso1{
+    background-image: url(../Imagenes/Accion1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#terror1{
+    background-image: url(../Imagenes/Accion1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
 
 #generos img {
     height: 100px;
@@ -45,7 +75,6 @@
     margin: auto;
     transition: transform 0.3s;
 }
-
 #generos img:hover {
     transform: scale(1.2);
 }
