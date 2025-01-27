@@ -22,24 +22,39 @@
 #menu li:hover{
     color: red;
 }
-#generos div{
-    height: 404px;
-    width:  100%;
-    border-color: rgb(255, 0, 0);
-    border: 10px;
-    border-collapse: collapse;
+#generos {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: flex-start; 
+    padding: 20px;
 }
+
+#generos div {
+    height: 300px;
+    width: 45%; 
+    border: 2px solid rgb(255, 0, 0);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
 #generos img {
     height: 100px;
     width: 150px;
-    margin-left: 45%;
+    margin: auto;
+    transition: transform 0.3s;
 }
-#generos img:hover{
+
+#generos img:hover {
     transform: scale(1.2);
 }
 #titulo{
     color: aliceblue;
     margin-bottom: 200px;
+}
+#piePagina p{
+    color: aliceblue;
 }
 
 
