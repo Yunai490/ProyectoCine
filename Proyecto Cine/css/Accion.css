@@ -10,8 +10,8 @@
     z-index: 10;
     color: white;
     font-size: 10rem;
-    background: rgba(0, 0, 0, 0); /* Fondo negro semi-transparente */
+    background: rgba(0, 0, 0, 0); 
     padding: 10px;
-    display: inline-block; /* Para que el fondo solo cubra el texto */
+    display: inline-block; 
     margin-left: 50%;
 }
